@@ -2,6 +2,7 @@
 # From https://pygame-zero.readthedocs.io/en/stable/introduction.html #
 #######################################################################
 import pgzrun
+
 WIDTH = 500
 HEIGHT = 500
 
@@ -16,8 +17,6 @@ dy1 = 2
 
 dx2 = 2
 dy2 = 3
-
-pgzrun.go()
 
 def draw():
     screen.clear()
@@ -67,3 +66,4 @@ def set_alien1_normal():
 def set_alien2_normal():
     alien2.image = 'alien'
 
+pgzrun.go()

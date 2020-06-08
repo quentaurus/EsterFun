@@ -1,3 +1,5 @@
+import pgzrun
+
 alien = Actor('alien')
 alien.topright = 0, 10
 
@@ -18,3 +20,5 @@ def on_mouse_down(pos):
         print("Eek!")
     else:
         print("You missed me!")
+
+pgzrun.go()

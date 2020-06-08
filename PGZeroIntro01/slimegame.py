@@ -1,3 +1,5 @@
+import pgzrun
+
 slimearm = Actor('alien')
 slimearm.topright = 0, 10
 
@@ -27,3 +29,5 @@ def set_alien_hurt():
 
 def set_alien_normal():
     slimearm.image = 'alien'
+
+pgzrun.go()

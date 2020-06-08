@@ -1,3 +1,5 @@
+import pgzrun
+
 alien = Actor('alien')
 alien.topright = 0, 10
 
@@ -17,3 +19,5 @@ def on_mouse_down(pos):
     if alien.collidepoint(pos):
         sounds.eep.play()
         alien.image = 'alien_hurt'
+
+pgzrun.go()

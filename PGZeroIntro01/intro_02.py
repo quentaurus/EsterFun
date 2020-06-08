@@ -5,7 +5,6 @@ alien.topright = 0, 10
 
 WIDTH = 500
 HEIGHT = alien.height + 20
-pgzrun.go()
 
 def draw():
     screen.clear()
@@ -15,3 +14,5 @@ def update():
     alien.left += 2
     if alien.left > WIDTH:
         alien.right = 0
+
+pgzrun.go()
